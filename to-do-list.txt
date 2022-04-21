@@ -1,0 +1,31 @@
+to do list
+
+
+flavor text???
+
+--additional features
+increase the time delays for most things
+~info command?
+split up game_end nicknames by teams
+edit the vote message every second as time goes down?
+
+
+--testing
+should make sure chef/empath is consistent with the table picture
+
+--clean up
+reorder functions and variable definitions to be more clean and consistent
+naming probably??
+bot language/grammar consistency. bolds for example
+
+--bugs
+can ~join from outside of the mainChannel (as well as many other unprompted commands), prob doesnt matter tho
+imp transfer doesn't work; may need to create a new player object
+get_random_of_type('demon') might be a problem when we have 2 demons after imp transfer
+
+    after transfer_demon, need to remove the transfer's old player object from nightlist.
+    if game.nomiantedPlyaer = target, game.nominatedPlayer = new
+
+--nonfunctional roles
+
+--custom rules notes

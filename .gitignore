@@ -1,0 +1,6 @@
+tokenFile.py
+venv/
+__pycache__/
+logs/
+table.png
+clockpics/
